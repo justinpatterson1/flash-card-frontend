@@ -1,0 +1,107 @@
+:root
+{
+    --primary-bg-color:#311432;
+    --secondary-bg-color:#710193;
+    --primary-button-color:#a45ee5;
+}
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #000;
+}
+
+button
+{
+    background-color: var(--primary-button-color);
+    color: var(--primary-bg-color);
+    padding:10px 20px;
+    font-size:larger;
+    margin-top: 10px;
+}
+label
+{
+    font-size:1.4rem;
+}
+form
+{
+    margin: 0 auto;
+    padding-top: 20px;
+    width: 50%;
+    height: 250px;
+    background:var(--secondary-bg-color);
+    border-radius : 20px;
+}
+
+
+.grid
+{
+    display: grid;
+}
+
+.col-input{
+    grid-template-columns: 100px 200px;
+}
+
+.col-1
+{
+    grid-template-columns: repeat(1,1fr);
+}
+
+.col-2
+{
+    grid-template-columns: repeat(2,1fr);
+}
+.col-3
+{
+    grid-template-columns: repeat(3,1fr);
+}
+.col-4
+{
+    grid-template-columns: repeat(4,1fr);
+}
+.col-5
+{
+    grid-template-columns: repeat(5,1fr);
+}
+.col-6
+{
+    grid-template-columns: repeat(6,1fr);
+}
+
+.justify-items-end
+{
+    justify-items: end;
+}
+.justify-items-start
+{
+    justify-items: start;
+}
+
+.justify-items-center
+{
+    justify-items: center;
+}
+
+#main-div
+{
+    background-color:var(--primary-bg-color);
+    margin:0 auto;
+    width: 70%;
+    height: 100vh;
+    padding-top: 20px;
+}
+
+#answer-form-control
+{
+    padding-top: 20px;
+}
+
+input[type=text]
+{
+    width: 230px;
+}
