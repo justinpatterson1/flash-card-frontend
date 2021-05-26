@@ -37,6 +37,10 @@ form
     border-radius : 20px;
 }
 
+.hide
+{
+    display: none;
+}
 
 .grid
 {
@@ -87,13 +91,15 @@ form
     justify-items: center;
 }
 
+
+
 #main-div
 {
     background-color:var(--primary-bg-color);
     margin:0 auto;
     width: 70%;
-    height: 100vh;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #answer-form-control
@@ -104,4 +110,61 @@ form
 input[type=text]
 {
     width: 230px;
+}
+
+#card-layout
+{
+    background-color: var(--secondary-bg-color);
+    border-radius : 20px;
+    margin:0 auto;
+    width:90%;
+    padding-top:10px;
+    padding-bottom:10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    row-gap: 10px;
+    justify-items: center;
+    overflow: scroll;
+}
+
+#card-layout::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+#flashcard
+{
+    width: 200px;
+    height: 200px;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-button-color);
+    padding-bottom: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+    text-align:center;
+    
+}
+
+#form-div
+{
+    margin-top: 10px;
+}
+span:hover
+{
+    color:white;
+    cursor: pointer;
+}
+
+.far
+{
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-size: 1.33rem;
+    
+}
+
+.far:hover
+{
+    color: white;
+    cursor: pointer;
 }
